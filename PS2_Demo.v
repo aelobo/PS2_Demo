@@ -14,9 +14,7 @@ module PS2_Demo (
 	HEX2,
 	HEX3,
 	HEX4,
-	HEX5,
-	HEX6,
-	HEX7
+	HEX5
 );
 
 /*****************************************************************************
@@ -43,8 +41,6 @@ output		[6:0]	HEX2;
 output		[6:0]	HEX3;
 output		[6:0]	HEX4;
 output		[6:0]	HEX5;
-output		[6:0]	HEX6;
-output		[6:0]	HEX7;
 
 /*****************************************************************************
  *                 Internal Wires and Registers Declarations                 *
@@ -84,8 +80,6 @@ assign HEX2 = 7'h7F;
 assign HEX3 = 7'h7F;
 assign HEX4 = 7'h7F;
 assign HEX5 = 7'h7F;
-assign HEX6 = 7'h7F;
-assign HEX7 = 7'h7F;
 
 /*****************************************************************************
  *                              Internal Modules                             *
